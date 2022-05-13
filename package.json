@@ -8,7 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
   },
   "homepage": "https://github.com/dmadd1996/Team_Profile_Generator#readme",
   "dependencies": {
-    "jest": "^28.0.3"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "jest": "^28.0.3",
+    "path": "^0.12.7"
   }
 }
